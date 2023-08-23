@@ -1,0 +1,82 @@
+ .header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 100%;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.8rem 0;
+}
+
+section{
+padding: 5rem;
+}
+
+.logo{
+text-transform: uppercase;
+color: var(--text-color);
+font-weight: 500;
+font-size: 1.2rem;
+
+}
+.logo span {
+ color: var(--main-color);
+}
+
+.navbar{
+display: flex;
+align-items: center;
+column-gap: 1.2rem;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+
+.navlink{
+color: var(--main-color);
+}
+.navlink:hover{
+color: var(--hover-color);
+}
+
+.about{
+ padding: 1.5em;
+  text-align: center;
+}
+.about h1{
+    font-weight: 600;
+}
+.about p{
+    font-size: 1.2rem;
+}
+.popular-section h1{
+    margin-bottom: 2.5rem;
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding:0.8rem 0.7rem;
+      color: var(--main-color);
+      border: 0;
+      border-radius: 0.50rem;
+      background-color: var(--hover-color);
+}
+
+ .section-2 h2,p{
+ text-align: center;
+ }
+.section-2 h2{
+font-weight: 600;
+text-transform: lowercase;
+}
+
+
+.inside-part img{
+width: 500px;
+height: 400px;
+object-fit: cover;
+padding: 0.50em;
+}
